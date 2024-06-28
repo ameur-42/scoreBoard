@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="score.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="score-home">0</p>
+                <button onclick="addOne()">+1</button>
+                <button onclick="addTwo()">+2</button>
+                <button onclick="addThree()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="score-guest">0</p>
+                <button onclick="addOneGuest()">+1</button>
+                <button onclick="addTwoGuest()">+2</button>
+                <button onclick="addThreeGuest()">+3</button>
+            </div>
+        </div>
+        <br>
+            <div class="center">
+                <button onclick="endGame()">end game</button>
+                <br>
+            </div>
+            <div class="down">
+                <p1 id="winner"></p>
+            </div>
+
+        </div>
+        <script src="score.js"></script>
+    </body>
+</html>

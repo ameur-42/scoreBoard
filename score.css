@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    gap: 60px;
+    background: #1B244A;
+    color: aliceblue;
+    align-self: center;
+}
+.center {
+    margin-bottom: 10;
+    position: absolute;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+}
+.down {
+    margin-bottom: 10;
+    position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+}
+p {
+    font-family: Cursed Timer ULiL;
+    font-size: 30px;
+    font-weight: 40;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+    color: #F94F6D;
+    background-color: black;
+}
+h3 {
+    text-align: center;
+}
+
+p1 {
+    border-color: blue;
+    border-width: 5px;
+}
