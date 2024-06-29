@@ -27,9 +27,9 @@ body {
 .down {
     margin-bottom: 10;
     position: absolute;
-                top: 85%;
-                left: 50%;
-                transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 p {
     font-family: Cursed Timer ULiL;
@@ -50,4 +50,12 @@ p1 {
     border-width: 5px;
     color: cyan;
 }
-
+.down.button {
+                        background-color: black
+                        border: none;
+                color: blue;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                    }
