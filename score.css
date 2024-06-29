@@ -1,6 +1,11 @@
 body {
     display: flex;
     justify-content: center;
+    background-image: url("front-view-composition-with-basketballs.jpg");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .container {
     display: flex;
@@ -22,7 +27,7 @@ body {
 .down {
     margin-bottom: 10;
     position: absolute;
-                top: 80%;
+                top: 85%;
                 left: 50%;
                 transform: translate(-50%, -50%);
 }
@@ -43,4 +48,5 @@ h3 {
 p1 {
     border-color: blue;
     border-width: 5px;
+    color: cyan;
 }
