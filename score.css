@@ -50,7 +50,7 @@ p1 {
     border-width: 5px;
     color: cyan;
 }
-.button {
+.button1 {
     color: rgb(255, 0, 0); font-size: 16px; 
     line-height: 16px; 
     padding: 5px; 
@@ -61,14 +61,8 @@ p1 {
     font-style: normal; 
     font-variant: normal; 
     text-transform: none; 
-    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(49, 49, 49) 50%, rgb(56, 56, 56) 100%); 
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
-    border: 2px solid rgb(28, 110, 164); 
+    border: 2px solid rgb(255, 255, 255); 
     display: inline-block;
-}
-button:hover {
-    background: #1C6EA4; 
-}
-button:active {
-    background: #144E75; 
 }
