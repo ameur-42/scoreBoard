@@ -10,6 +10,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    border-radius: 20px; 
     width: 400px;
     height: 250px;
     gap: 60px;
@@ -65,4 +66,10 @@ p1 {
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
     border: 2px solid rgb(255, 255, 255); 
     display: inline-block;
+}
+button {
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%); 
 }
