@@ -46,6 +46,7 @@ function endGame() {
     timer = false
     minute = 0
     second = 0
+    document.getElementById("demo").textContent = minute + ":" + second
 }
 function startGame() {
     timer = true ;
@@ -73,6 +74,9 @@ function stopWatch() {
             minute = 0; 
             second = 0; 
         } 
+    }
+    else {
+        return
     }
     document.getElementById("demo").textContent = minute + ":" + second
     setTimeout(stopWatch, 10);
