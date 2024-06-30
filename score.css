@@ -25,6 +25,13 @@ body {
                 left: 50%;
                 transform: translate(-50%, -50%);
 }
+.cent {
+    margin-bottom: 10;
+    position: absolute;
+                top: 60%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+}
 .down {
     margin-bottom: 10;
     position: absolute;
