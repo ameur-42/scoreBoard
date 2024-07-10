@@ -87,9 +87,11 @@ button {
     border-radius: 7px; 
     border: 2px solid rgb(0, 0, 0);
     color: greenyellow;
-    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
     cursor: pointer; 
     font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 .button3 {
     border-radius: 7px; 
@@ -98,4 +100,6 @@ button {
     background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
     cursor: pointer; 
     font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
