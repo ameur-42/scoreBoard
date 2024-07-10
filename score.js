@@ -46,7 +46,7 @@ function endGame() {
     timer = false
     minute = 0
     second = 0
-    document.getElementById("demo").textContent = minute + ":" + second
+    document.getElementById("demo").textContent = "0"+minute + ":" + "0"+second
 }
 function startGame() {
     timer = true ;
@@ -78,6 +78,14 @@ function stopWatch() {
     else {
         return
     }
-    document.getElementById("demo").textContent = minute + ":" + second
+    if (minute>9 && second>9){
+        document.getElementById("demo").textContent = minute + ":" + second
+    } else if (minute>9 && second<=9){
+        document.getElementById("demo").textContent = minute + ":" + "0" +second
+    } else if (minute<=9 && second<=9){
+        document.getElementById("demo").textContent = "0"+ minute + ":" + "0" +second
+    } else if (minute<=9 && second>9){
+        document.getElementById("demo").textContent = "0"+ minute + ":" +second
+    }
     setTimeout(stopWatch, 10);
 }
